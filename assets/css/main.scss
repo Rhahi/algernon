@@ -13,3 +13,39 @@ h1 {
     max-width: 45em;
     min-width: 20em;
 }
+
+code:not([class]), pre {
+    background-color: rgb(100, 100, 100);
+}
+
+code[class] {
+    background: none;
+}
+
+code[data-lang] {
+    position: relative;
+    &::before {
+        position: absolute;
+        background-color: rgb(80, 80, 80);
+        padding: 0.1em 0.3em 0.3em;
+        content: attr(data-lang);
+        top: -1.2em;
+        left: -1.1rem;
+    }
+}
+
+body[a="dark"] pre {
+    filter: invert(100);
+}
+
+@media (prefers-color-scheme: dark) {
+    body[a="auto"] pre {
+        filter: invert(100);
+    }
+}
+
+blockquote {
+    border: unset;
+    border-left: thick solid grey;
+    background-color: rgb(200, 200, 200);
+}
