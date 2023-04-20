@@ -1,0 +1,7 @@
+baseURL: 'https://algernon.rhahi.com/'
+languageCode: 'en-us'
+title: 'Algernon'
+theme: 'no-style-please'
+taxonomies:
+  tag: tags
+  series: series
