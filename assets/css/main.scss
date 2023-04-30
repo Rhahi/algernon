@@ -6,7 +6,13 @@ body {
 
 h1 {
     font-size: 2rem;
-    color: #0072ff;
+    background-color: grey;
+    padding: 0.1em 0.5em;
+}
+
+h2, *:visited h2 {
+    color: rgb(255, 85, 0);
+    text-decoration: none;
 }
 
 .w {
@@ -34,18 +40,39 @@ code[data-lang] {
     }
 }
 
-body[a="dark"] pre {
-    filter: invert(100);
+*:target {
+    background: unset;
+    text-decoration: underline;
+    text-decoration-color: inherit;
+}
+
+
+body[a="dark"] {
+    pre { filter: invert(100); }
+    h1 { filter: invert(100); }
+    h2 { color: #0072ff; }
 }
 
 @media (prefers-color-scheme: dark) {
-    body[a="auto"] pre {
-        filter: invert(100);
+    body[a="auto"] {
+        pre { filter: invert(100); }
     }
 }
 
 blockquote {
     border: unset;
     border-left: thick solid grey;
+    background-color: rgb(200, 200, 200);
+}
+
+article > header {
+    display: flex;
+    justify-content: space-between;
+    p:only-child {
+        margin-left: auto;
+    }
+}
+
+hr.dark {
     background-color: rgb(200, 200, 200);
 }
