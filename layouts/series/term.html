@@ -1,0 +1,9 @@
+{{ define "main" }}
+{{ partial "back_link.html" .}}
+
+<h1>Series: {{ .Title | title }}</h1>
+
+{{ .Content }}
+{{ partial "post_list_by_date.html" (dict "context" .)}}
+
+{{ end }}
