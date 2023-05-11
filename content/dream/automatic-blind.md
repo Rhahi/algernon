@@ -3,13 +3,13 @@ title: "Dream: Automatic sunshade"
 date: 2023-04-20T21:48:11+02:00
 mathjax: false
 draft: false
-series: "blind"
+series: blind
 tags: ["fusion360", "3dp"]
 ---
 
 ## A weekend project
 
-I live in a place where I get blinding sunlight by the time I come home.
+I live in a place where I get blinding sunlight in the afternoon.
 This is problematic for reading what's written on the monitor.
 So, I am going to make a deployable blind.
 
@@ -37,7 +37,7 @@ So, I am going to make a deployable blind.
 
 Create a design that will hold on to the blind without punching holes on the walls or frames.
 
-This is because the window what I am trying to block is not on a drywall, so putting any holes in there will make it difficult for repairs for the next tenants. Instead, I will take inspiration from my previous project and find ways to hold on to frames with friction.
+This is because there is no drywall around the window to drill holes in. It will be difficult to fill in holes in them when we move out. Instead, I will take inspiration from my previous project and find ways to hold on to frames with friction.
 
 ![door32](/images/door32.png)
 
