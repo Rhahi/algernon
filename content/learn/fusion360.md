@@ -57,11 +57,11 @@ The controller is powered by a 5V1A USB charger. I used a broken Pinecil cable a
 
 ### Performance
 
-I did not test how fast the motor spins before starting the project; I should have, but I did not. So when I first turned on the motor, it was moving like a snail. Well, it worked at least, so I let it be.
+I did not test how fast the motor spins before starting the project; I should have, but I did not. So when I first turned on the motor, it was moving like a snail. I made another mount that works without the gear system, but this one did not have enough torque to move the blind. (so all is fine?)
 
-### Durability and revision
+### Reliability
 
-After about a week of operation, the blind stopped working. The motor was fine, but the gear housing was the problem. I think some parts might have gone loose and created obstruction, or a bit of lubrication might help. However, since the motor was turning too slowly, I think it is best to remove the gear mechanism entirely and replace it with a solid core that connects the motor to the blind.
+After about a week of operation, the blind stopped working. The motor was fine, but sometimes the friction of the entire system was too large for the stpper to overcome. I tried to grease the gearboxes and contacts, but it was not very reliable. At this point, I think the solution is either high quality gearboxes and friction setup (not going to happen) or a stronger and faster motor. (maybe can happen)
 
 ### Personal notes
 
