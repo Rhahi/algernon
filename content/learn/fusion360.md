@@ -63,6 +63,8 @@ I did not test how fast the motor spins before starting the project; I should ha
 
 After about a week of operation, the blind stopped working. The motor was fine, but sometimes the friction of the entire system was too large for the stpper to overcome. I tried to grease the gearboxes and contacts, but it was not very reliable. At this point, I think the solution is either high quality gearboxes and friction setup (not going to happen) or a stronger and faster motor. (maybe can happen)
 
+It is possible that my motor is drawing more current than my power supply can provide. I will try a 9W USB charger later and see if that helps.
+
 ### Personal notes
 
 - I cannot extract STL from main component while Fusion360 server is under maintenance. (also, maintenance takes an hour or two.)
