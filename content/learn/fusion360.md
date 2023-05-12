@@ -1,5 +1,5 @@
 ---
-title: "Learn: Fusion360 for automatic blind"
+title: "Fusion360 for automatic blind"
 date: 2023-04-30T23:08:38+02:00
 mathjax: false
 draft: false

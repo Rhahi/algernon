@@ -1,5 +1,5 @@
 ---
-title: "Dream: Automatic sunshade"
+title: "automatic sunshade"
 date: 2023-04-20T21:48:11+02:00
 mathjax: false
 draft: false
